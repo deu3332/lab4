@@ -10,8 +10,7 @@ pthread_t tid;
 int arg, status;
 void *result;
 if (argc < 2) {
-fprintf (stderr, "Usage: jointhread
-<number>\n");
+fprintf (stderr, "Usage: jointhread<number>\n");
 exit (1);
 }
 arg = atoi (argv[1]);
